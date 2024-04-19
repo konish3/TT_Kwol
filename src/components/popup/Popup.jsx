@@ -3,7 +3,7 @@ import { CustomButton } from "../_shared/Button/Button";
 export const Popup = ({ data, goBack }) => {
   return (
     <>
-      <div className="bg-[#042f2e] w-11/12 absolute top-[10px] p-[10px] md:w-1/2">
+      <div className="bg-[#042f2e] w-4/5 absolute top-[10px] p-[10px] sm:w-3/5 lg:w-2/5">
         <CustomButton
           onClick={goBack}
           className="bg-[#e7e5e4] font-medium text-sm rounded-lg text-[#374151] h-[34px] w-full mb-[20px] md:w-24"
